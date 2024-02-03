@@ -1,0 +1,8 @@
+composer.bat --version
+composer --version
+composer du
+composer require slim/psr7
+
+remote add origin git@github.com:carlosanders/site-adv-ph.git
+
+php -S localhost:8000 -t public
