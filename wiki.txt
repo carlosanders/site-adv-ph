@@ -6,3 +6,16 @@ composer require slim/psr7
 remote add origin git@github.com:carlosanders/site-adv-ph.git
 
 php -S localhost:8000 -t public
+
+
+LINKS:
+https://www.youtube.com/watch?v=C2NV92-1Zvs&list=PLyugqHiq-SKcDiCq0182RiqHQwX_wU9ou&index=6
+https://github.com/carlosanders/site-adv-ph
+https://www.slimframework.com/docs/v4/objects/routing.html#registering-a-controller-with-the-container
+https://www.slimframework.com/docs/v4/
+https://platesphp.com/getting-started/simple-example/
+https://getbootstrap.com/
+https://getcomposer.org/doc/00-intro.md
+https://github.com/thephpleague/plates/issues/58
+https://github.com/odan/plates-asset-cache
+https://jquery.com/download/
