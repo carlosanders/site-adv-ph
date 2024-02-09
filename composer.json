@@ -20,5 +20,8 @@
     "league/plates": "^3.5",
     "slim/psr7": "^1.6",
     "twbs/bootstrap": "5.3.2"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.49"
   }
 }
