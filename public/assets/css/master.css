@@ -1,28 +1,45 @@
 /* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); */
 
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #223555 !important;
+    border-color: #223555 !important;
+}
+
+.btn-primary:hover {
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+}
+
 .demo-wrap {
     position: relative;
+    width: 100%;
+    height: 550px;
+    /* background-color: #223555;
+    opacity: 0.5; */
+    /* transition: background 0.3s, border-radius 0.3s, opacity 0.3s; */
 }
 
 .demo-wrap:before {
     content: " ";
     display: block;
     position: absolute;
-    background-color: #223555;
-    opacity: 0.5;
-    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
     left: 0;
     top: 0;
     width: 100%;
-    height: 500px;
-    opacity: 0.6;
+    height: 550px;
+    /* opacity: 0.6; */
     background-image: url("https://nabilhoblos.adv.br/wp-content/uploads/2023/01/slide2-1-2.jpg");
     //background-image: url("https://nabilhoblos.adv.br/wp-content/uploads/2022/12/statue-justice-symbol-legal-law-concept-image-1.jpg");
-    //background-image: url("https://nabilhoblos.adv.br/wp-content/uploads/2023/01/statue-justice-symbol-1-1-1.jpg");
+    /* background-image: url("https://nabilhoblos.adv.br/wp-content/uploads/2023/01/statue-justice-symbol-1-1-1.jpg"); */
     background-repeat: no-repeat;
     background-position: 60% 0;
     background-size: cover;
     background-position: bottom bottom;
+    background-color: #223555;
+    opacity: 0.5;
 }
 
 .demo-content {
@@ -45,8 +62,25 @@
     /* left: 1%; */
     /* z-index: 2; */
     /* display: inline-block; */
-    padding: 15px 0 0 0px;
+    /* top | right | bottom | left */
+    padding: 5px 0 0 0px;
 }
+
+.title1 {
+    /* font-family: "Amatic SC"; */
+    font-family: "Lora", Sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    /* -webkit-text-stroke-width: 1px;
+    stroke-width: 1px;
+    -webkit-text-stroke-color: #000000; */
+    /* stroke: #000000; */
+    color: #cda142;
+    /* text-shadow: 0 2px 2px rgba(0, 0, 0, 2.5); */
+    /* top | right | bottom | left */
+    padding: 5px 0 0 0px;
+}
+
 /* .title::after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
@@ -68,4 +102,8 @@
     width: 50%;
     color: #fff;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 1);
+}
+
+.bem-vindo {
+    padding-top: 15px;
 }
